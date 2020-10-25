@@ -1,0 +1,54 @@
+<!--pages/phonetics/index.wxml-->
+<view class="container">
+  <view>
+    <view style="margin: 20rpx 0;">
+      <text style="font-size:50rpx;color: red">/iː/</text>是单元音前元音,是个长元音，美式音标与之对应的发音符号是[i]。
+    </view>
+    <view style="margin: 20rpx 0;">
+      <view><text style="font-size:36rpx;font-weight:600;">1、发音示范</text></view>
+      <view class="flex space-around align-items-center">
+          <view style="text-align: center">
+            <view style="margin: 10rpx 0;"><text>发音器官示范</text></view>
+            <video 
+              style="width:300rpx;height:280rpx"
+              src="https://i.xiao84.com/en-yinbiao/lip-rounding-video/i1-1.mp4" 
+              show-center-play-btn='{{false}}' 
+              show-play-btn="{{true}}" 
+              object-fit="contain"
+              binderror="videoErrorCallback" 
+            ></video>
+          </view>
+          <view style="text-align: center">
+            <view style="margin: 10rpx 0;"><text>发音口型示范</text></view>
+            <video 
+              style="width:300rpx;height:280rpx"
+              src="https://i.xiao84.com/en-yinbiao/lip-rounding-video/i1.mp4" 
+              show-center-play-btn='{{false}}' 
+              show-play-btn="{{true}}" 
+              binderror="videoErrorCallback" 
+            ></video>
+          </view>
+      </view>
+    </view>
+    <view style="margin: 20rpx 0;">
+      <view><text style="font-size:36rpx;font-weight:600;">2、听单词发音</text></view>
+      <view style="margin: 20rpx 0;"><text>先来听听/iː/在下面单词中的发音，并跟读练习。</text></view>
+      <view class="flex align-items-center" style=" flex-wrap: wrap;">
+        <view style="margin-right: 20rpx;" data-audio="bee" bindtap="playYoudao">bee /biː/ n. 蜜蜂</view>
+        <view style="margin-right: 20rpx;">we /wiː/ pron. 我们</view>
+        <view style="margin-right: 20rpx;">read /ri:d/ vt. 阅读</view>
+        <view style="margin-right: 20rpx;">meat /miːt/ n. 肉</view>
+        <view style="margin-right: 20rpx;">heat /hiːt/ n. 高温</view>
+        <view style="margin-right: 20rpx;">seat /siːt/ n. 座位</view>
+      </view>
+    </view>
+    <view style="margin: 20rpx 0;">
+      <view><text style="font-size:36rpx;font-weight:600;">3、发音方法</text></view>
+      <view style="margin: 20rpx 0;"><text>现在来看看我们应该如何正确的发出/iː/这个音。</text></view>
+      <view>1）张开你的嘴巴，好像你在微笑，露出你的牙齿，嘴唇向两边伸开，成扁平形。</view>
+      <view>2）将舌前部向硬腭尽量抬起。舌头轻微接触下齿背部。</view>
+      <view>3）嘴唇绷紧，舌头肌肉保持紧张，震动声带，发出/iː/音。</view>
+      <view style="margin: 20rpx 0;"><text style="color: red;padding-right: 20rpx;">注意</text>/iː/个长元音，发音的时候要尽量拉长。</view>
+    </view>
+  </view>
+</view>
