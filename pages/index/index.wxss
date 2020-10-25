@@ -12,4 +12,9 @@
 
 .phonetic-symbol {
   width: 60rpx;
+  padding: 6rpx;
+  color: #ffffff;
+  text-align: center;
+  background-color: #26a69a;
+  border-radius: 10rpx;
 }

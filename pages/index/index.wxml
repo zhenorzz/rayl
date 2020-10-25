@@ -4,7 +4,7 @@
     <view style="text-align:right; font-size:24rpx;">轻触音标符号即可发音</view>
     <view>
       <view class="flex space-between align-items-center">
-        <view style="margin-right:20rpx">元音</view>
+        <view style="width: 28rpx; margin-right:20rpx;">元音</view>
         <view>
           <view class="flex space-between align-items-center">
             <view style="margin-right:20rpx">单元音</view>
@@ -54,7 +54,7 @@
         </view>
       </view>
       <view class="flex space-between align-items-center">
-        <view style="margin-right:20rpx">辅音</view>
+        <view style="width: 28rpx; margin-right:20rpx">辅音</view>
         <view>
           <view class="flex space-between align-items-center">
             <view style="margin-right:20rpx">爆破音</view>
@@ -64,8 +64,6 @@
                 <view class="phonetic-symbol" data-symbol="p" bindtap="playPhonetics">/p/</view>
                 <view class="phonetic-symbol" data-symbol="t" bindtap="playPhonetics">/t/</view>
                 <view class="phonetic-symbol" data-symbol="k" bindtap="playPhonetics">/k/</view>
-                <view class="phonetic-symbol"></view>
-                <view class="phonetic-symbol"></view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>

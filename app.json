@@ -1,13 +1,29 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "音标发音在线读",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "英语随心读",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "音标",
+        "iconPath": "assets/icon/abc.png",
+        "selectedIconPath": "assets/icon/abc-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "语法",
+        "iconPath": "assets/icon/grammar.png",
+        "selectedIconPath": "assets/icon/grammar-active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
