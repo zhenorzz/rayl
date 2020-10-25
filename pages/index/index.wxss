@@ -1,0 +1,15 @@
+/**index.wxss**/
+.phonetics {
+  margin: 0 10rpx;
+}
+.phonetics view {
+  margin: 5rpx 2rpx;
+}
+
+.phonetic-symbol-title {
+  width:160rpx;
+}
+
+.phonetic-symbol {
+  width: 60rpx;
+}
