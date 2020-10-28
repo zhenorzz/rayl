@@ -62,6 +62,7 @@
         {
           "name": "pages/phonetics/index",
           "pathName": "pages/phonetics/index",
+          "query": "symbol=iː",
           "scene": null
         }
       ]
