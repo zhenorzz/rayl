@@ -6,11 +6,10 @@
     </view>
     <view style="margin: 20rpx 0;">
       <view><text style="font-size:36rpx;font-weight:600;">1、发音示范</text></view>
-      <view class="flex space-around align-items-center">
+      <view>
           <view style="text-align: center">
             <view style="margin: 10rpx 0;"><text>发音器官示范</text></view>
             <video 
-              style="width:300rpx;height:280rpx"
               src="{{current.part1.organ}}" 
               show-center-play-btn='{{false}}' 
               show-play-btn="{{true}}" 
@@ -21,7 +20,6 @@
           <view style="text-align: center">
             <view style="margin: 10rpx 0;"><text>发音口型示范</text></view>
             <video 
-              style="width:300rpx;height:280rpx"
               src="{{current.part1.mouth}}" 
               show-center-play-btn='{{false}}' 
               show-play-btn="{{true}}" 
@@ -34,9 +32,10 @@
       <view><text style="font-size:36rpx;font-weight:600;">2、听单词发音</text></view>
       <view style="margin: 20rpx 0;"><text>先来听听/{{current.phonetic}}/在下面单词中的发音，并跟读练习。</text></view>
       <view class="flex align-items-center" style=" flex-wrap: wrap;">
-        <view wx:for="{{current.part2.sound}}" wx:key="word" style="margin-right: 20rpx;" data-audio="{{item.word}}" bindtap="playYoudao">
+        <view wx:for="{{current.part2.sound}}" wx:key="word" style="margin: 0 20rpx 20rpx 0;" data-audio="{{item.word}}" bindtap="playYoudao">
           {{item.front}}<text style="color: red">{{item.middle}}</text>{{item.back}} {{item.phonetic}} {{item.class}} {{item.chinese}}
         </view>
+        <view style="margin: 20rpx 0;"><text style="color: red;padding-right: 20rpx;">注意</text>点击上方的单词即可发音跟读</view>
       </view>
     </view>
     <view style="margin: 20rpx 0;">
