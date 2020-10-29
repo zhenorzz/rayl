@@ -10,6 +10,12 @@ Page({
     userInfo: {},
     hasUserInfo: false
   },
+  navigateToPhonetics: function(event) {
+    const symbol = event.target.dataset.symbol
+    wx.navigateTo({
+      url: `/pages/phonetics/index?symbol=${symbol}`
+    })
+  },
   playPhonetics: function(event) {
     const symbol = event.target.dataset.symbol
     innerAudioContext.src = `assets/audio/phonetics/[${symbol}].mp3`; 

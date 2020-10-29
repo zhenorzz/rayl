@@ -1,34 +1,34 @@
 <!--index.wxml-->
 <view class="container">
   <view class="phonetics">
-    <view style="text-align:right; font-size:24rpx;">轻触音标符号即可发音</view>
+    <view style="text-align:right; font-size:24rpx;">轻触音标即可发音, 长按音标进入学习~</view>
     <view>
       <view class="flex space-between align-items-center">
         <view style="width: 28rpx; margin-right:20rpx;">元音</view>
         <view>
           <view class="flex space-between align-items-center">
-            <view style="margin-right:20rpx">单元音</view>
+            <view style="margin-right:20rpx; width:85rpx;">单元音</view>
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">前元音</view>
-                <view class="phonetic-symbol" data-symbol="iː" bindtap="playPhonetics">/iː/</view>
-                <view class="phonetic-symbol" data-symbol="ɪ" bindtap="playPhonetics">/ɪ/</view>
-                <view class="phonetic-symbol" data-symbol="e" bindtap="playPhonetics">/e/</view>
-                <view class="phonetic-symbol" data-symbol="æ" bindtap="playPhonetics">/æ/</view>
+                <view class="phonetic-symbol" data-symbol="iː" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/iː/</view>
+                <view class="phonetic-symbol" data-symbol="ɪ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɪ/</view>
+                <view class="phonetic-symbol" data-symbol="e" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/e/</view>
+                <view class="phonetic-symbol" data-symbol="æ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/æ/</view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">中元音</view>
-                <view class="phonetic-symbol" data-symbol="ɜː" bindtap="playPhonetics">/ɜː/</view>
-                <view class="phonetic-symbol" data-symbol="ə" bindtap="playPhonetics">/ə/</view>
-                <view class="phonetic-symbol" data-symbol="ʌ" bindtap="playPhonetics">/ʌ/</view>
+                <view class="phonetic-symbol" data-symbol="ɜː" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɜː/</view>
+                <view class="phonetic-symbol" data-symbol="ə" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ə/</view>
+                <view class="phonetic-symbol" data-symbol="ʌ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ʌ/</view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">后元音</view>
-                <view class="phonetic-symbol" data-symbol="uː" bindtap="playPhonetics">/uː/</view>
-                <view class="phonetic-symbol" data-symbol="ʊ" bindtap="playPhonetics">/ʊ/</view>
-                <view class="phonetic-symbol" data-symbol="ɔː" bindtap="playPhonetics">/ɔː/</view>
-                <view class="phonetic-symbol" data-symbol="ɒ" bindtap="playPhonetics">/ɒ/</view>
-                <view class="phonetic-symbol" data-symbol="ɑː" bindtap="playPhonetics">/ɑː/</view>
+                <view class="phonetic-symbol" data-symbol="uː" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/uː/</view>
+                <view class="phonetic-symbol" data-symbol="ʊ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ʊ/</view>
+                <view class="phonetic-symbol" data-symbol="ɔː" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɔː/</view>
+                <view class="phonetic-symbol" data-symbol="ɒ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɒ/</view>
+                <view class="phonetic-symbol" data-symbol="ɑː" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɑː/</view>
               </view>
             </view>
           </view>
@@ -37,17 +37,17 @@
             <view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">开合双元音</view>
-                <view class="phonetic-symbol" data-symbol="eɪ" bindtap="playPhonetics">/eɪ/</view>
-                <view class="phonetic-symbol" data-symbol="aɪ" bindtap="playPhonetics">/aɪ/</view>
-                <view class="phonetic-symbol" data-symbol="ɔɪ" bindtap="playPhonetics">/ɔɪ/</view>
-                <view class="phonetic-symbol" data-symbol="aʊ" bindtap="playPhonetics">/aʊ/</view>
-                <view class="phonetic-symbol" data-symbol="əʊ" bindtap="playPhonetics">/əʊ/</view>
+                <view class="phonetic-symbol" data-symbol="eɪ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/eɪ/</view>
+                <view class="phonetic-symbol" data-symbol="aɪ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/aɪ/</view>
+                <view class="phonetic-symbol" data-symbol="ɔɪ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɔɪ/</view>
+                <view class="phonetic-symbol" data-symbol="aʊ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/aʊ/</view>
+                <view class="phonetic-symbol" data-symbol="əʊ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/əʊ/</view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">集中双元音</view>
-                <view class="phonetic-symbol" data-symbol="ɪə" bindtap="playPhonetics">/ɪə/</view>
-                <view class="phonetic-symbol" data-symbol="eə" bindtap="playPhonetics">/eə/</view>
-                <view class="phonetic-symbol" data-symbol="ʊə" bindtap="playPhonetics">/ʊə/</view>
+                <view class="phonetic-symbol" data-symbol="ɪə" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɪə/</view>
+                <view class="phonetic-symbol" data-symbol="eə" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/eə/</view>
+                <view class="phonetic-symbol" data-symbol="ʊə" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ʊə/</view>
               </view>
             </view>
           </view>
@@ -61,15 +61,15 @@
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">清辅音</view>
-                <view class="phonetic-symbol" data-symbol="p" bindtap="playPhonetics">/p/</view>
-                <view class="phonetic-symbol" data-symbol="t" bindtap="playPhonetics">/t/</view>
-                <view class="phonetic-symbol" data-symbol="k" bindtap="playPhonetics">/k/</view>
+                <view class="phonetic-symbol" data-symbol="p" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/p/</view>
+                <view class="phonetic-symbol" data-symbol="t" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/t/</view>
+                <view class="phonetic-symbol" data-symbol="k" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/k/</view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>
-                <view class="phonetic-symbol" data-symbol="b" bindtap="playPhonetics">/b/</view>
-                <view class="phonetic-symbol" data-symbol="d" bindtap="playPhonetics">/d/</view>
-                <view class="phonetic-symbol" data-symbol="ɡ" bindtap="playPhonetics">/ɡ/</view>
+                <view class="phonetic-symbol" data-symbol="b" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/b/</view>
+                <view class="phonetic-symbol" data-symbol="d" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/d/</view>
+                <view class="phonetic-symbol" data-symbol="ɡ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɡ/</view>
               </view>
             </view>
           </view>
@@ -78,19 +78,19 @@
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">清辅音</view>
-                <view class="phonetic-symbol" data-symbol="f" bindtap="playPhonetics">/f/</view>
-                <view class="phonetic-symbol" data-symbol="s" bindtap="playPhonetics">/s/</view>
-                <view class="phonetic-symbol" data-symbol="ʃ" bindtap="playPhonetics">/ʃ/</view>
-                <view class="phonetic-symbol" data-symbol="θ" bindtap="playPhonetics">/θ/</view>
-                <view class="phonetic-symbol" data-symbol="h" bindtap="playPhonetics">/h/</view>
+                <view class="phonetic-symbol" data-symbol="f" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/f/</view>
+                <view class="phonetic-symbol" data-symbol="s" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/s/</view>
+                <view class="phonetic-symbol" data-symbol="ʃ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ʃ/</view>
+                <view class="phonetic-symbol" data-symbol="θ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/θ/</view>
+                <view class="phonetic-symbol" data-symbol="h" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/h/</view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>
-                <view class="phonetic-symbol" data-symbol="v" bindtap="playPhonetics">/v/</view>
-                <view class="phonetic-symbol" data-symbol="z" bindtap="playPhonetics">/z/</view>
-                <view class="phonetic-symbol" data-symbol="ʒ" bindtap="playPhonetics">/ʒ/</view>
-                <view class="phonetic-symbol" data-symbol="ð" bindtap="playPhonetics">/ð/</view>
-                <view class="phonetic-symbol" data-symbol="r" bindtap="playPhonetics">/r/</view>
+                <view class="phonetic-symbol" data-symbol="v" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/v/</view>
+                <view class="phonetic-symbol" data-symbol="z" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/z/</view>
+                <view class="phonetic-symbol" data-symbol="ʒ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ʒ/</view>
+                <view class="phonetic-symbol" data-symbol="ð" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ð/</view>
+                <view class="phonetic-symbol" data-symbol="r" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/r/</view>
               </view>
             </view>
           </view>
@@ -99,15 +99,15 @@
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">清辅音</view>
-                <view class="phonetic-symbol" data-symbol="tʃ" bindtap="playPhonetics">/tʃ/</view>
-                <view class="phonetic-symbol" data-symbol="tr" bindtap="playPhonetics">/tr/</view>
-                <view class="phonetic-symbol" data-symbol="ts" bindtap="playPhonetics">/ts/</view>
+                <view class="phonetic-symbol" data-symbol="tʃ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/tʃ/</view>
+                <view class="phonetic-symbol" data-symbol="tr" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/tr/</view>
+                <view class="phonetic-symbol" data-symbol="ts" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ts/</view>
               </view>
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>
-                <view class="phonetic-symbol" data-symbol="dʒ" bindtap="playPhonetics">/dʒ/</view>
-                <view class="phonetic-symbol" data-symbol="dr" bindtap="playPhonetics">/dr/</view>
-                <view class="phonetic-symbol" data-symbol="dz" bindtap="playPhonetics">/dz/</view>
+                <view class="phonetic-symbol" data-symbol="dʒ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/dʒ/</view>
+                <view class="phonetic-symbol" data-symbol="dr" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/dr/</view>
+                <view class="phonetic-symbol" data-symbol="dz" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/dz/</view>
               </view>
             </view>
           </view>
@@ -116,9 +116,9 @@
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>
-                <view class="phonetic-symbol" data-symbol="m" bindtap="playPhonetics">/m/</view>
-                <view class="phonetic-symbol" data-symbol="n" bindtap="playPhonetics">/n/</view>
-                <view class="phonetic-symbol" data-symbol="ŋ" bindtap="playPhonetics">/ŋ/</view>
+                <view class="phonetic-symbol" data-symbol="m" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/m/</view>
+                <view class="phonetic-symbol" data-symbol="n" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/n/</view>
+                <view class="phonetic-symbol" data-symbol="ŋ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ŋ/</view>
               </view>
             </view>
           </view>
@@ -127,7 +127,7 @@
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>
-                <view class="phonetic-symbol" data-symbol="l" bindtap="playPhonetics">/l/</view>
+                <view class="phonetic-symbol" data-symbol="l" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/l/</view>
               </view>
             </view>
           </view>
@@ -136,8 +136,8 @@
             <view style="flex: 1; text-align: center">
               <view class="flex align-items-center">
                 <view class="phonetic-symbol-title">浊辅音</view>
-                <view class="phonetic-symbol" data-symbol="j" bindtap="playPhonetics">/j/</view>
-                <view class="phonetic-symbol" data-symbol="w" bindtap="playPhonetics">/w/</view>
+                <view class="phonetic-symbol" data-symbol="j" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/j/</view>
+                <view class="phonetic-symbol" data-symbol="w" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/w/</view>
               </view>
             </view>
           </view>
