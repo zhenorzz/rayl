@@ -323,26 +323,534 @@ module.exports = {
     },
     tips: "/ɑː/是个长元音，发音要稍长一些。"
   },
-//   ɪ:{
-//     title: "",
-//     phonetic: "",
-//     brief: "",
-//     part1: {
-//       organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i-1.mp4",        
-//       mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i.mp4"
-//     },
-//     part2: {
-//       sound: [
-//         {word: "",front: "",middle: "",back: "",phonetic: "",class: "",chinese: ""},
-//       ]
-//     },
-//     part3: {
-//       method: [
-//         "",
-//         "",
-//         ""
-//       ]
-//     },
-//     tips: ""
-//   },
+  eɪ:{
+    title: "双元音/eɪ/的发音方法",
+    phonetic: "eɪ",
+    brief: "是开合双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ei-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ei.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "wait",front: "w",middle: "ai",back: "t",phonetic: "/weɪt/",class: "vt.",chinese: "等候"},
+        {word: "late",front: "l",middle: "a",back: "te",phonetic: "/leɪt/",class: "adj.",chinese: "晚的"},
+        {word: "hate",front: "h",middle: "a",back: "te",phonetic: "/heɪt/",class: "vt.",chinese: "憎恨"},
+        {word: "waste",front: "w",middle: "a",back: "ste",phonetic: "/weɪst/",class: "n.",chinese: "浪费"},
+        {word: "shake",front: "sh",middle: "a",back: "ke",phonetic: "/ʃeɪk/",class: "vt.",chinese: "动摇"},
+        {word: "snail",front: "sn",middle: "ai",back: "l",phonetic: "/sneɪl/",class: "n.",chinese: "蜗牛"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音发音方法请先学习/e/和/ɪ/这两个单元音。",
+        "2）嘴巴张开成半圆形，开始发/e/音。",
+        "3）然后颚部慢慢抬起滑向/ɪ/音，嘴唇慢慢合上。",
+      ]
+    },
+    tips: '/eɪ/是个"合口双元音"，即牙床由半开到接近半合，由大到小。发音时音量从强到弱，前长后短，前重后轻。'
+  },
+  aɪ:{
+    title: "双元音/aɪ/的发音方法",
+    phonetic: "aɪ",
+    brief: "是开合双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ai-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ai.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "write",front: "wr",middle: "i",back: "te",phonetic: "/raɪt/",class: "vi.",chinese: "写"},
+        {word: "fight",front: "f",middle: "i",back: "ght",phonetic: "/faɪt/",class: "vi.",chinese: "打架"},
+        {word: "why",front: "wh",middle: "y",back: "",phonetic: "/waɪ/",class: "adv.",chinese: "为什么"},
+        {word: "my",front: "m",middle: "y",back: "",phonetic: "/maɪ/",class: "pron.",chinese: "我的"},
+        {word: "satisfy",front: "satisf",middle: "y",back: "",phonetic: "/'sætɪsfaɪ/",class: "vt.",chinese: "满足"},
+        {word: "lion",front: "l",middle: "i",back: "on",phonetic: "/'laɪən/",class: "n.",chinese: "狮子"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音发音方法请先学习/ɑː/和/ɪ/这两个单元音。",
+        "2）双唇张开，开始发/ɑː/音。",
+        "3）舌部肌肉放松，然后颚部慢慢抬起滑向/ɪ/音，嘴唇慢慢合上。",
+      ]
+    },
+    tips: '/aɪ/是个"开合双元音"，即牙床由半开到接近半合，口形由大到小。发音时舌位由低到高，音量由强到弱，由长到短，由清晰到含糊。'
+  },
+  ɔɪ:{
+    title: "双元音/ɔɪ/的发音方法",
+    phonetic: "ɔɪ",
+    brief: "是开合双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/oi-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/oi.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "oyster",front: "",middle: "oy",back: "ster",phonetic: "/'ɔɪstə/",class: "n.",chinese: "牡蛎"},
+        {word: "choice",front: "ch",middle: "oi",back: "ce",phonetic: "/tʃɔɪs/ ",class: "n.",chinese: "选择"},
+        {word: "annoy",front: "ann",middle: "oy",back: "",phonetic: "/ə'nɔɪ/",class: "n.",chinese: "烦恼"},
+        {word: "noise",front: "n",middle: "oi",back: "se",phonetic: "/nɔɪz/",class: "n.",chinese: "噪音"},
+        {word: "point",front: "p",middle: "oi",back: "nt",phonetic: "/pɔɪnt/",class: "n.",chinese: "得分"},
+        {word: "oil",front: "",middle: "oi",back: "l",phonetic: "/ɔɪl/",class: "n.",chinese: "油"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音发音方法请先学习/ɔː/和/ɪ/这两个单元音。",
+        "2）发音时下颌张开，嘴唇略呈圆形，稍稍向外突出。",
+        "3）舌前部收缩，舌后部向软颚抬起，但不要接触到软颚。",
+        "4）舌身放松前探，舌尖轻触下齿，舌前部微微抬起。整个过程就是从/ɔː/音慢慢滑向/ɪ/。",
+      ]
+    },
+    tips: '/ɔɪ/是个"开合双元音"，即牙床由半开到接近半合，口形由稍大而圆变为小而扁。发音时舌位由低到高，由舌后部抬高滑向舌前部抬高，音量由强到弱，由长到短，由清晰到含糊。'
+  },
+  aʊ:{
+    title: "双元音/aʊ/的发音方法",
+    phonetic: "aʊ",
+    brief: "是开合双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/au-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/au.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "mouse",front: "m",middle: "ou",back: "se",phonetic: "/maʊs/",class: "n.",chinese: "鼠标"},
+        {word: "cloud",front: "cl",middle: "ou",back: "d",phonetic: "/klaʊd/",class: "n.",chinese: "云"},
+        {word: "town",front: "t",middle: "ow",back: "n",phonetic: "/taʊn/",class: "n.",chinese: "城镇"},
+        {word: "south",front: "s",middle: "ou",back: "th",phonetic: "/saʊθ/",class: "n.",chinese: "南方"},
+        {word: "pound",front: "p",middle: "ou",back: "nd",phonetic: "/paʊnd/",class: "n.",chinese: "英镑"},
+        {word: "drought",front: "dr",middle: "ou",back: "ght",phonetic: "/draʊt/",class: "n.",chinese: "干旱"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音发音方法请先学习/ɑː/和/ʊ/这两个单元音。",
+        "2）嘴巴放松张大，嘴唇向两侧分开。舌身放平，舌尖轻抵下齿，发/ɑː/。",
+        "3）然后嘴巴收圆合拢。舌尖离开下齿，舌身后缩，舌后部身软颚抬起，发音慢慢滑向/ʊ/。",
+      ]
+    },
+    tips: '/aʊ/是个"开合双元音"，发音时口形由大变为小。音量由强到弱，由长到短，由清晰到含糊。'
+  },
+  əʊ:{
+    title: "双元音/əʊ/的发音方法",
+    phonetic: "əʊ",
+    brief: "是开合双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/eu-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/eu.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "goat",front: "g",middle: "oa",back: "t",phonetic: "/gəʊt/",class: "n.",chinese: "山羊"},
+        {word: "arrow",front: "arr",middle: "ow",back: "",phonetic: "/'ærəʊ/",class: "n.",chinese: "箭"},
+        {word: "know",front: "kn",middle: "ow",back: "",phonetic: "/nəʊ/",class: "vt.",chinese: "知道"},
+        {word: "bowl",front: "b",middle: "ow",back: "l",phonetic: "/bəʊl/",class: "n.",chinese: "碗"},
+        {word: "pose",front: "p",middle: "o",back: "se",phonetic: "/pəʊz/",class: "n.",chinese: "姿势"},
+        {word: "mode",front: "m",middle: "o",back: "de",phonetic: "/məʊd/",class: "n.",chinese: "模式"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音的发音方法请先学习/ə/和/ʊ/这两个单元音。",
+        "2）首先嘴型呈半圆并稍向前突出，舌后部向软颚抬起，不要与之接触,发出/ə/。",
+        "3）然后很快的滑向/ʊ/音，发音结束时，颚部慢慢抬起，嘴唇慢慢合上。",
+      ]
+    },
+    tips: '/əʊ/是个"开合双元音"，发音时口型由略微呈圆形较大到收圆缩小，音量由强到弱，该音是字母"o"的读音。'
+  },
+  ɪə:{
+    title: "双元音/ɪə/的发音方法",
+    phonetic: "ɪə",
+    brief: "是集中双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ir-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ir.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "beer",front: "b",middle: "eer",back: "",phonetic: "/bɪə/",class: "n.",chinese: "啤酒"},
+        {word: "deer",front: "d",middle: "eer",back: "",phonetic: "/dɪə/",class: "n.",chinese: "鹿"},
+        {word: "mere",front: "m",middle: "ere",back: "",phonetic: "/mɪə/",class: "n.",chinese: "小湖"},
+        {word: "shear",front: "sh",middle: "ear",back: "",phonetic: "/ʃɪə/",class: "vi.",chinese: "剪"},
+        {word: "smear",front: "sm",middle: "ear",back: "",phonetic: "/smɪə/",class: "n.",chinese: "诽谤"},
+        {word: "tear",front: "t",middle: "ear",back: "",phonetic: "/tɪə/",class: "n.",chinese: "眼泪"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音发音方法请先学习/ɪ/和/ə/这两个单元音。",
+        "2）首先短发/ɪ/的音，嘴唇扁平，嘴不要张得太大。",
+        "3）然后很快的滑向/ə/音，发音过程中口型始终是半开的。",
+      ]
+    },
+    tips: '/ɪə/是个"集中双元音"，发音时口型由小到大，从合到开。前一个成分要短一些，模糊一点，而后一个成分要长一些，清晰一点。英式音标中/ə/要扁平，没有卷舌音。美式音标/r/要卷舌。'
+  },
+  eə:{
+    title: "双元音/eə/的发音方法",
+    phonetic: "eə",
+    brief: "是集中双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/er-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/er.mp4"
+    }, 
+    part2: {
+      sound: [
+        {word: "bear",front: "b",middle: "ear",back: "",phonetic: "/beə/",class: "n.",chinese: "熊"},
+        {word: "wear",front: "w",middle: "ear",back: "",phonetic: "/weə/",class: "n.",chinese: "衣物"},
+        {word: "square",front: "squ",middle: "are",back: "",phonetic: "/skweə/",class: "adj.",chinese: "平方的"},
+        {word: "fare",front: "f",middle: "are",back: "",phonetic: "/feə/",class: "n.",chinese: "票价"},
+        {word: "spare",front: "sp",middle: "are",back: "",phonetic: "/speə/",class: "vt.",chinese: "节约"},
+        {word: "unfair",front: "unf",middle: "air",back: "",phonetic: "/ʌn'feə/",class: "adj.",chinese: "不公平的"},
+      ]
+    },
+    
+    part3: {
+      method: [
+        "1）学习该音的发音方法请先学习/e/和/ə/这两个单元音。",
+        "2）首先先发前元音/e/，同时舌尖轻触下齿。",
+        "3）然后很快滑向/ə/音，发音过程中双唇半开。",
+      ]
+    },
+    tips: '/eə/是个"集中双元音"，发音/e/时嘴角向两边拉，滑向/ə/音收小，口型由大变小。'
+  },
+  ʊə:{
+    title: "双元音/ʊə/的发音方法",
+    phonetic: "ʊə",
+    brief: "是集中双元音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ur-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ur.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "poor",front: "p",middle: "oor",back: "",phonetic: "/pʊə/",class: "adj.",chinese: "贫穷的"},
+        {word: "tour",front: "t",middle: "our",back: "",phonetic: "/tʊə/",class: "n.",chinese: "旅游"},
+        {word: "cruel",front: "cr",middle: "ue",back: "l",phonetic: "/krʊəl/",class: "adj.",chinese: "残酷的"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）学习该音的发音方法请先学习/ʊ/和/ə/这两个单元音。",
+        "2）首先发/ʊ/的音，然后慢慢滑向/ə/的音就可以了。",
+        "3）口型由收圆变化为最后半开。",
+      ]
+    },
+    tips: '/ʊə/是个"集中双元音"，发音时前长后短，前强后弱，音式发音发/ə/部分不卷舌，美式发音卷舌。'
+  },
+  p:{
+    title: "清辅音/p/的发音方法",
+    phonetic: "p",
+    brief: "是爆破、双唇、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/p-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/p.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "pay",front: "",middle: "p",back: "ay",phonetic: "/peɪ/",class: "vt.",chinese: "支付"},
+        {word: "put",front: "",middle: "p",back: "ut",phonetic: "/pʊt/",class: "vt.",chinese: "放"},
+        {word: "sip",front: "si",middle: "p",back: "",phonetic: "/sɪp/",class: "n.",chinese: "抿"},
+        {word: "cup",front: "cu",middle: "p",back: "",phonetic: "/kʌp/",class: "n.",chinese: "杯子"},
+        {word: "open",front: "o",middle: "p",back: "en",phonetic: "/'əʊpn/",class: "v.",chinese: "打开"},
+        {word: "panda",front: "",middle: "p",back: "anda",phonetic: "/'pændə/",class: "n.",chinese: "熊猫"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）首先紧闭双唇，阻止气流流出。",
+        "2）突然分开双唇，气流冲出口腔，气流受嘴唇阻碍被爆破产生气流声。"
+      ]
+    },
+    tips: "/p/是个清辅音，声带不震动，产生的声音不是声带而是气流，要注意与/b/的区别。"
+  },
+  t:{
+    title: "清辅音/t/的发音方法",
+    phonetic: "t",
+    brief: "是个爆破清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/t-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/t.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "talk",front: "",middle: "t",back: "alk",phonetic: "/tɔːk/",class: "vt.",chinese: "讲"},
+        {word: "taxi",front: "",middle: "t",back: "axi",phonetic: "/tæksi/",class: "n.",chinese: "出租车"},
+        {word: "tell",front: "",middle: "t",back: "ell",phonetic: "/tel/",class: "vt.",chinese: "告诉"},
+        {word: "kitty",front: "ki",middle: "tt",back: "y",phonetic: "/'kɪtɪ/",class: "n.",chinese: "小猫"},
+        {word: "night",front: "nigh",middle: "t",back: "",phonetic: "/naɪt/",class: "n.",chinese: "夜晚"},
+        {word: "better",front: "be",middle: "tt",back: "er",phonetic: "/'betə/",class: "adv.",chinese: "更好的"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）/t/是爆破音，嘴巴微微张开，舌尖先紧贴上齿龈，憋住气。",
+        "2）舌尖迅速下降，使气流冲出口腔，形成爆破音。",
+        "3）/t/是清辅音，声带不震动，只能听到气流的声音。"
+      ]
+    },
+    tips: '不要用汉语拼音中的"t（特）"来代替这个发音。在词尾出现时，千万不要加上一个弱读的元音/ə/！这是中国人最容易犯的错误之一！'
+  },
+  k:{
+    title: "清辅音/k/的发音方法",
+    phonetic: "k",
+    brief: "是爆破、软腭、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/k-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/k.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "key",front: "",middle: "k",back: "ey",phonetic: "/kiː/",class: "n.",chinese: "钥匙"},
+        {word: "cold",front: "",middle: "c",back: "old",phonetic: "/kəʊld/",class: "adj.",chinese: "寒冷的"},
+        {word: "card",front: "",middle: "c",back: "ard",phonetic: "/kɑːd/",class: "n.",chinese: "卡片"},
+        {word: "desk",front: "des",middle: "k",back: "",phonetic: "/desk/",class: "n.",chinese: "办公桌"},
+        {word: "cup",front: "",middle: "c",back: "up",phonetic: "/kʌp/",class: "n.",chinese: "杯子"},
+        {word: "cat",front: "",middle: "c",back: "at",phonetic: "/kæt/",class: "n.",chinese: "猫"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）首先舌后部隆起，紧贴上颚软腭，憋住气,使气流通道完全阻塞。",
+        "2）嘴巴张开,舌后部迅速降低,抵住软颚的舌离开软颚，气流突然冲出口腔。"
+      ]
+    },
+    tips: "/k/是个清辅音，声带不震动，产生的声音不是声带而是气流，要注意与/g/的区别。"
+  },
+  b:{
+    title: "浊辅音/b/的发音方法",
+    phonetic: "b",
+    brief: "是爆破、双唇、浊辅音",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/b-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/b.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "bread",front: "",middle: "b",back: "read",phonetic: "/bred/",class: "n.",chinese: "面包"},
+        {word: "club",front: "clu",middle: "b",back: "",phonetic: "/klʌb/",class: "n.",chinese: "俱乐部"},
+        {word: "tube",front: "tu",middle: "b",back: "e",phonetic: "/tjuːb/",class: "n.",chinese: "管"},
+        {word: "lab",front: "la",middle: "b",back: "",phonetic: "/læb/",class: "n.",chinese: "实验室"},
+        {word: "rabbit",front: "ra",middle: "bb",back: "it",phonetic: "/'ræbɪt/",class: "n.",chinese: "兔子"},
+        {word: "garbage",front: "gar",middle: "b",back: "age",phonetic: "/'gɑːbɪdʒ/",class: "n.",chinese: "垃圾"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）首先紧闭双唇，憋住气。",
+        "2）舌头平放，突然分开双唇，牙齿会随双唇运动，气流冲出口腔同时发出爆破的音。",
+        "3）声音由声带震动发出，送气力量较弱。",
+      ]
+    },
+    tips: "/b/是个浊辅音，声带震动发声。一些学生会用声带不震动的轻辅音p来代替b,或在b的面添加元音ə把单音节变成双音节，例如把cab /kæb/错发成/kæbə/、/kæp/，这些问题应在平时练习多加注意。"
+  },
+  d:{
+    title: "浊辅音/d/的发音方法",
+    phonetic: "d",
+    brief: "是爆破、齿龈、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "duck",front: "",middle: "d",back: "uck",phonetic: "/dʌk/",class: "n.",chinese: "鸭子"},
+        {word: "deep",front: "",middle: "d",back: "eep",phonetic: "/diːp/",class: "adj.",chinese: "深的"},
+        {word: "dog",front: "",middle: "d",back: "og",phonetic: "/dɒg/",class: "n.",chinese: "狗"},
+        {word: "card",front: "car",middle: "d",back: "",phonetic: "/kɑːd/",class: "n.",chinese: "卡片"},
+        {word: "bed",front: "be",middle: "d",back: "",phonetic: "/bed/",class: "n.",chinese: "床"},
+        {word: "murder",front: "mur",middle: "d",back: "er",phonetic: "/'mɜːdə/",class: "vt.",chinese: "谋杀"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）嘴巴张开,舌尖紧贴上齿龈，憋住气。",
+        "2）舌尖迅速下降，使气流冲出口腔。",
+        "3）同时声带震动发出声音，送气力量较弱。",
+      ]
+    },
+    tips: '/d/是个浊辅音，声带震动发声。注意与轻辅音/t/的区别。不要用汉语拼音中的"d（的）"来代替，英语发声比较靠后，是由声带震动发声。'
+  },
+  g:{
+    title: "浊辅音/g/的发音方法",
+    phonetic: "g",
+    brief: "是爆破、软腭、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/g-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/g.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "eagle",front: "ea",middle: "g",back: "le",phonetic: "/'iːg(ə)l/",class: "n.",chinese: "鹰"},
+        {word: "egg",front: "e",middle: "gg",back: "",phonetic: "/eg/",class: "n.",chinese: "蛋"},
+        {word: "lag",front: "la",middle: "g",back: "",phonetic: "/læg/",class: "n.",chinese: "落后"},
+        {word: "dig",front: "di",middle: "g",back: "",phonetic: "/dɪg/",class: "vt.",chinese: "挖"},
+        {word: "glass",front: "",middle: "g",back: "lass",phonetic: "/glɑːs/",class: "n.",chinese: "玻璃"},
+        {word: "gate",front: "",middle: "g",back: "ate",phonetic: "/geɪt/",class: "n.",chinese: "大门"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）嘴巴张开,将舌后部隆起，紧贴软腭，憋住气。",
+        "2）然后舌后部迅速降低，使气流冲出口腔。",
+        "3）同时声带震动发出声音，送气力量较弱。",
+      ]
+    },
+    tips: '/g/是个浊辅音，声带震动发声。注意不要用汉语拼音中的"g（哥）"来代替,汉语拼音的g是口腔发音，音标是声带震动发音。'
+  },
+  f:{
+    title: "清辅音/f/的发音方法",
+    phonetic: "f",
+    brief: "是摩擦、唇齿、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/f-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/f.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "fish",front: "",middle: "f",back: "ish",phonetic: "/fɪʃ/",class: "n.",chinese: "鱼"},
+        {word: "finger",front: "",middle: "f",back: "inger",phonetic: "/'fɪŋgə/",class: "n.",chinese: "手指"},
+        {word: "face",front: "",middle: "f",back: "ace",phonetic: "/feɪs/",class: "n.",chinese: "脸"},
+        {word: "floor",front: "",middle: "f",back: "loor",phonetic: "/flɔː/",class: "n.",chinese: "地板"},
+        {word: "forget",front: "",middle: "f",back: "orget",phonetic: "/fə'get/",class: "vt.",chinese: "忘记"},
+        {word: "frog",front: "",middle: "f",back: "rog",phonetic: "/frɒg/",class: "n.",chinese: "青蛙"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）上齿轻轻接触在下唇上。",
+        "2）把口腔中的空气透过唇齿间的缝隙，挤压出来引起气流和牙齿摩擦。",
+      ]
+    },
+    tips: "/k/是个清辅音，声带不震动，产生的声音不是声带而是气流，要注意与浊辅音/v/的区别。"
+  },
+  s:{
+    title: "清辅音/s/的发音方法",
+    phonetic: "s",
+    brief: "是摩擦、齿龈、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "sit",front: "",middle: "s",back: "it",phonetic: "/sɪt/",class: "vi.",chinese: "坐"},
+        {word: "say",front: "",middle: "s",back: "ay",phonetic: "/seɪ/",class: "vt.",chinese: "讲"},
+        {word: "sky",front: "",middle: "s",back: "ky",phonetic: "/skaɪ/",class: "n.",chinese: "天空"},
+        {word: "face",front: "fa",middle: "ce",back: "",phonetic: "/feɪs/",class: "n.",chinese: "脸"},
+        {word: "bus",front: "bu",middle: "s",back: "",phonetic: "/bʌs/",class: "n.",chinese: "公共汽车"},
+        {word: "nice",front: "ni",middle: "ce",back: "",phonetic: "/naɪs/",class: "adj.",chinese: "精密的"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）上下齿自然合拢，嘴唇张开不要太大。",
+        "2）将舌前端抬起，靠近齿龈，但不要贴住，将气流所通过的气流通道收窄。",
+        "3）将口腔的空气形成气流由舌端与齿龈之间的窄缝中泄出，伴有嘶嘶声。",
+      ]
+    },
+    tips: "/s/是个清辅音，声带不震动。要注意与/ð/,/θ/,/z/的区别。"
+  },
+  ʃ:{
+    title: "清辅音/ʃ/的发音方法",
+    phonetic: "∫",
+    brief: "是摩擦、硬腭、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s1-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s1.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "ship",front: "",middle: "sh",back: "ip",phonetic: "/ʃɪp/",class: "n.",chinese: "船"},
+        {word: "sheep",front: "",middle: "sh",back: "eep",phonetic: "/ʃiːp/",class: "n.",chinese: "羊"},
+        {word: "fish",front: "fi",middle: "sh",back: "",phonetic: "/fɪʃ/",class: "n.",chinese: "鱼"},
+        {word: "clash",front: "cla",middle: "sh",back: "",phonetic: "/klæʃ/",class: "vi.",chinese: "冲突"},
+        {word: "shirt",front: "",middle: "sh",back: "irt",phonetic: "/ʃɜːt/",class: "n.",chinese: "衬衫"},
+        {word: "wash",front: "wa",middle: "sh",back: "",phonetic: "/wɒʃ/",class: "vt.",chinese: "洗涤"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）上下齿自然合拢，嘴唇张开不要太大，稍微收圆。",
+        "2）舌端抬起，靠近齿龈后部，但不要贴住。",
+        "3）舌身抬起，靠近上腭，形成一条狭长的通道。气流通过通道时摩擦成音。"
+      ]
+    },
+    tips: "/∫/是个清辅音，声带不震动。/ʃ/和汉语中的声母sh很相近，但要注意的是/ʃ/不卷舌，是个平舌音。"
+  },
+  θ:{
+    title: "清辅音/θ/的发音方法",
+    phonetic: "θ",
+    brief: "是摩擦、舌齿、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "three",front: "",middle: "th",back: "ree",phonetic: "/θriː/",class: "n.",chinese: "三"},
+        {word: "south",front: "sou",middle: "th",back: "",phonetic: "/saʊθ/",class: "n.",chinese: "南方"},
+        {word: "path",front: "pa",middle: "th",back: "",phonetic: "/pɑːθ/",class: "n.",chinese: "道路"},
+        {word: "mouth",front: "mou",middle: "th",back: "",phonetic: "/maʊθ/",class: "n.",chinese: "口"},
+        {word: "math",front: "ma",middle: "th",back: "",phonetic: "/mæθ/",class: "n.",chinese: "数学"},
+        {word: "think",front: "",middle: "th",back: "ink",phonetic: "/θɪŋk/",class: "vt.",chinese: "想"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）舌尖微微伸出，置于上下门齿之间，舌身成扁平。",
+        "2）气流由舌齿间泻出，摩擦成音，舌尖和下齿之间的气流通道非常窄小，气流从舌齿间的窄缝中泄出。",
+      ]
+    },
+    tips: "/θ/是个清辅音，声带不震动。要注意与/ð/,/s/,/z/的区别，发这个音主要是舌尖与上齿之间的摩擦，所以千万不要紧紧咬住舌尖，应该是上齿轻触舌尖。"
+  },
+  h:{
+    title: "清辅音/h/的发音方法",
+    phonetic: "h",
+    brief: "是摩擦、声门、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/h-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/h.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "home",front: "",middle: "",back: "",phonetic: "/həʊm/",class: "n.",chinese: "家"},
+        {word: "hello",front: "",middle: "",back: "",phonetic: "/həˈləʊ/",class: "int.",chinese: "喂"},
+        {word: "hut",front: "",middle: "",back: "",phonetic: "/hʌt/",class: "n.",chinese: "小屋"},
+        {word: "hand",front: "",middle: "",back: "",phonetic: "/hænd/",class: "n.",chinese: "手"},
+        {word: "hide",front: "",middle: "",back: "",phonetic: "/haɪd/",class: "vt.",chinese: "隐藏"},
+        {word: "happy",front: "",middle: "",back: "",phonetic: "/'hæpɪ/",class: "adj.",chinese: "幸福的"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）张开嘴巴，让气流自由逸出口腔，不受阻碍。",
+        "2）只在通过声门时形成轻微的摩擦，舌头和嘴唇的位置随其后的元音而变化。",
+        "3）发音时，声带不震动。",
+      ]
+    },
+    tips: '/h/是个清辅音，声音不震动，送气很大，可以拿一张白纸放在嘴前，感受一下气流。不要发成汉语中的"喝"。'
+  },
+  // ɪ:{
+  //   title: "",
+  //   phonetic: "",
+  //   brief: "",
+  //   part1: {
+  //     organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i-1.mp4",        
+  //     mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i.mp4"
+  //   },
+  //   part2: {
+  //     sound: [
+  //       {word: "",front: "",middle: "",back: "",phonetic: "",class: "",chinese: ""},
+  //     ]
+  //   },
+  //   part3: {
+  //     method: [
+  //       "",
+  //       "",
+  //       ""
+  //     ]
+  //   },
+  //   tips: ""
+  // },
 }
