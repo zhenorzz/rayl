@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    current: {},
+    current: symbol['iː'],
     prev: '',
     next: '',
   },
@@ -48,7 +48,6 @@ Page({
     if (currentIndex < symbolSortArr.length - 1) {
       next = symbolSortArr[currentIndex+1]
     }
-
     this.setData(
       {
         'current': symbol[options.symbol],

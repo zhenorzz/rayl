@@ -6,26 +6,8 @@
     </view>
     <view style="margin: 20rpx 0;">
       <view><text style="font-size:36rpx;font-weight:600;">1、发音示范</text></view>
-      <view>
-          <view style="text-align: center">
-            <view style="margin: 10rpx 0;"><text>发音器官示范</text></view>
-            <video 
-              src="{{current.part1.organ}}" 
-              show-center-play-btn='{{false}}' 
-              show-play-btn="{{true}}" 
-              object-fit="contain"
-              binderror="videoErrorCallback" 
-            ></video>
-          </view>
-          <view style="text-align: center">
-            <view style="margin: 10rpx 0;"><text>发音口型示范</text></view>
-            <video 
-              src="{{current.part1.mouth}}" 
-              show-center-play-btn='{{false}}' 
-              show-play-btn="{{true}}" 
-              binderror="videoErrorCallback" 
-            ></video>
-          </view>
+      <view class="flex align-items-center">
+        <image style="flex: 1; background-color: #eeeeee;" mode="aspectFit" src="/assets/image/phonetics/[{{current.part1.image}}].jpg"></image>
       </view>
     </view>
     <view style="margin: 20rpx 0;">
@@ -46,9 +28,9 @@
       <view wx:if="{{current.tips!==''}}" style="margin: 20rpx 0;"><text style="color: red;padding-right: 20rpx;">注意</text>{{current.tips}}</view>
     </view>
     <view style="margin-bottom: 20rpx;" class="flex space-between align-items-center">
-      <navigator style="{{prev===''?'visibility:hidden;':''}}" url="/pages/phonetics/index?symbol={{prev}}">上一个音标/{{prev}}/</navigator>
+      <navigator style="{{prev===''?'visibility:hidden;':''}}" open-type="redirect" url="/pages/phonetics/index?symbol={{prev}}">上一个音标/{{prev}}/</navigator>
       <navigator url="/pages/index/index" open-type="switchTab">首页</navigator>
-      <navigator style="{{next===''?'visibility:hidden;':''}}" url="/pages/phonetics/index?symbol={{next}}">下一个音标/{{next}}/</navigator>
+      <navigator style="{{next===''?'visibility:hidden;':''}}" open-type="redirect" url="/pages/phonetics/index?symbol={{next}}">下一个音标/{{next}}/</navigator>
     </view>
   </view>
 </view>

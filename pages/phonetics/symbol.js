@@ -4,8 +4,7 @@ module.exports = {
     phonetic: "iː",
     brief: "是单元音前元音,是个长元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i1-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i1.mp4"
+      image: "i1"
     },
     part2: {
       sound: [
@@ -31,8 +30,7 @@ module.exports = {
     phonetic: "ɪ",
     brief: "是单元音前元音，这个音标在英式音标中的符号是/ɪ/。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i.mp4"
+      image: "i"
     },
     part2: {
       sound: [
@@ -59,8 +57,7 @@ module.exports = {
     phonetic: "e",
     brief: "是单元音前元音，这个音标在英式音标中的符号是/e/。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/e-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/e.mp4"
+      image: "e"
     },    
     part2: {
       sound: [
@@ -86,8 +83,7 @@ module.exports = {
     phonetic: "æ",
     brief: "是单元音前元音，这个音标在英式音标中的符号是/æ/。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ae-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ae.mp4"
+      image: "ae"
     },        
     part2: {
       sound: [
@@ -113,8 +109,7 @@ module.exports = {
     phonetic: "ɜː",
     brief: "是单元音中元音,是个长元音，旧版英式音标符号[əː]。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/e---1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/e--.mp4"
+      image: "e--"
     },
     part2: {
       sound: [
@@ -140,8 +135,7 @@ module.exports = {
     phonetic: "ə",
     brief: "是单元音中元音，这个音标在英式音标中的符号是/ə/。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/e--1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/e-.mp4"
+      image: "e-"
     },
     part2: {
       sound: [
@@ -167,8 +161,7 @@ module.exports = {
     phonetic: "ʌ",
     brief: "是单元音中元音，这个音标在英式音标中的符号是/ʌ/。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ʌ-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ʌ.mp4"
+      image: "A"
     },
     part2: {
       sound: [
@@ -194,8 +187,7 @@ module.exports = {
     phonetic: "uː",
     brief: "是单元音后元音,是个长元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/u1-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/u1.mp4"
+      image: "u1"
     },
     part2: {
       sound: [
@@ -220,8 +212,7 @@ module.exports = {
     phonetic: "ʊ",
     brief: "是单元音后元音，这个音标在英式音标中的符号是/ʊ/。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/u-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/u.mp4"
+      image: "u"
     },
     part2: {
       sound: [
@@ -247,8 +238,7 @@ module.exports = {
     phonetic: "ɔː",
     brief: "是单元音后元音,是个长元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/o1-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/o1.mp4"
+      image: "o1"
     },
     part2: {
       sound: [
@@ -274,8 +264,7 @@ module.exports = {
     phonetic: "ɒ",
     brief: "是单元音后元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/o-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/o.mp4"
+      image: "o"
     },
     part2: {
       sound: [
@@ -301,8 +290,7 @@ module.exports = {
     phonetic: "ɑː",
     brief: "是单元音后元音,是个长元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/a1-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/a1.mp4"
+      image: "a1"
     },
     part2: {
       sound: [
@@ -328,8 +316,7 @@ module.exports = {
     phonetic: "eɪ",
     brief: "是开合双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ei-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ei.mp4"
+      image: "ei"
     },
     part2: {
       sound: [
@@ -355,8 +342,7 @@ module.exports = {
     phonetic: "aɪ",
     brief: "是开合双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ai-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ai.mp4"
+      image: "ai"
     },
     part2: {
       sound: [
@@ -382,8 +368,7 @@ module.exports = {
     phonetic: "ɔɪ",
     brief: "是开合双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/oi-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/oi.mp4"
+      image: "oi"
     },
     part2: {
       sound: [
@@ -410,8 +395,7 @@ module.exports = {
     phonetic: "aʊ",
     brief: "是开合双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/au-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/au.mp4"
+      image: "au"
     },
     part2: {
       sound: [
@@ -437,8 +421,7 @@ module.exports = {
     phonetic: "əʊ",
     brief: "是开合双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/eu-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/eu.mp4"
+      image: "eu"
     },
     part2: {
       sound: [
@@ -464,8 +447,7 @@ module.exports = {
     phonetic: "ɪə",
     brief: "是集中双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ir-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ir.mp4"
+      image: "ir"
     },
     part2: {
       sound: [
@@ -491,8 +473,7 @@ module.exports = {
     phonetic: "eə",
     brief: "是集中双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/er-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/er.mp4"
+      image: "er"
     }, 
     part2: {
       sound: [
@@ -519,8 +500,7 @@ module.exports = {
     phonetic: "ʊə",
     brief: "是集中双元音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ur-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ur.mp4"
+      image: "ur"
     },
     part2: {
       sound: [
@@ -543,8 +523,7 @@ module.exports = {
     phonetic: "p",
     brief: "是爆破、双唇、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/p-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/p.mp4"
+      image: "p"
     },
     part2: {
       sound: [
@@ -569,8 +548,7 @@ module.exports = {
     phonetic: "t",
     brief: "是个爆破清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/t-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/t.mp4"
+      image: "t"
     },
     part2: {
       sound: [
@@ -596,8 +574,7 @@ module.exports = {
     phonetic: "k",
     brief: "是爆破、软腭、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/k-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/k.mp4"
+      image: "k"
     },
     part2: {
       sound: [
@@ -622,8 +599,7 @@ module.exports = {
     phonetic: "b",
     brief: "是爆破、双唇、浊辅音",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/b-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/b.mp4"
+      image: "b"
     },
     part2: {
       sound: [
@@ -649,8 +625,7 @@ module.exports = {
     phonetic: "d",
     brief: "是爆破、齿龈、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d.mp4"
+      image: "d"
     },
     part2: {
       sound: [
@@ -676,8 +651,7 @@ module.exports = {
     phonetic: "g",
     brief: "是爆破、软腭、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/g-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/g.mp4"
+      image: "g"
     },
     part2: {
       sound: [
@@ -703,8 +677,7 @@ module.exports = {
     phonetic: "f",
     brief: "是摩擦、唇齿、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/f-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/f.mp4"
+      image: "f"
     },
     part2: {
       sound: [
@@ -729,8 +702,7 @@ module.exports = {
     phonetic: "s",
     brief: "是摩擦、齿龈、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s.mp4"
+      image: "s"
     },
     part2: {
       sound: [
@@ -756,8 +728,7 @@ module.exports = {
     phonetic: "∫",
     brief: "是摩擦、硬腭、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s1-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/s1.mp4"
+      image: "s1"
     },
     part2: {
       sound: [
@@ -783,8 +754,7 @@ module.exports = {
     phonetic: "θ",
     brief: "是摩擦、舌齿、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th.mp4"
+      image: "th"
     },
     part2: {
       sound: [
@@ -809,8 +779,7 @@ module.exports = {
     phonetic: "h",
     brief: "是摩擦、声门、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/h-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/h.mp4"
+      image: "h"
     },
     part2: {
       sound: [
@@ -836,8 +805,7 @@ module.exports = {
     phonetic: "v",
     brief: "是摩擦、唇齿、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/v-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/v.mp4"
+      image: "v"
     },
     part2: {
       sound: [
@@ -863,8 +831,7 @@ module.exports = {
     phonetic: "z",
     brief: "是摩擦、齿龈、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/z-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/z.mp4"
+      image: "z"
     },
     part2: {
       sound: [
@@ -890,8 +857,7 @@ module.exports = {
     phonetic: "ʒ",
     brief: "是摩擦、硬腭、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/3-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/3.mp4"
+      image: "3"
     },
     part2: {   
       sound: [
@@ -917,8 +883,7 @@ module.exports = {
     phonetic: "ð",
     brief: "是摩擦、舌齿、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th1-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th1.mp4"
+      image: "th1"
     },
     part2: {
       sound: [
@@ -943,8 +908,7 @@ module.exports = {
     phonetic: "r",
     brief: "是流音、齿龈、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/r-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/r.mp4"
+      image: "r"
     },
     part2: {
       sound: [
@@ -970,8 +934,7 @@ module.exports = {
     phonetic: "tʃ",
     brief: "是破擦、硬腭、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tss-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tss.mp4"
+      image: "tss"
     },
     part2: {
       sound: [
@@ -997,8 +960,7 @@ module.exports = {
     phonetic: "tr",
     brief: "是破擦、清辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tr-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tr.mp4"
+      image: "tr"
     },
     part2: {
       sound: [
@@ -1024,8 +986,7 @@ module.exports = {
     phonetic: "ts",
     brief: "是破擦、清辅音",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ts-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ts.mp4"
+      image: "ts"
     },
     part2: {
       sound: [
@@ -1051,8 +1012,7 @@ module.exports = {
     phonetic: "dʒ",
     brief: "是破擦、硬腭、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d3-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d3.mp4"
+      image: "d3"
     },  
     part2: {
       sound: [
@@ -1078,8 +1038,7 @@ module.exports = {
     phonetic: "dr",
     brief: "是破擦、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dr-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dr.mp4"
+      image: "dr"
     },
     part2: {
       sound: [
@@ -1105,8 +1064,7 @@ module.exports = {
     phonetic: "dz",
     brief: "是破擦、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dz-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dz.mp4"
+      image: "dz"
     },
     part2: {
       sound: [
@@ -1131,8 +1089,7 @@ module.exports = {
     phonetic: "m",
     brief: "是双唇、鼻音、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/m-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/m.mp4"
+      image: "m"
     },
     part2: {
       sound: [
@@ -1157,8 +1114,7 @@ module.exports = {
     phonetic: "n",
     brief: "是齿龈、鼻音、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/n-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/n.mp4"
+      image: "n"
     },
     part2: {
       sound: [
@@ -1183,8 +1139,7 @@ module.exports = {
     phonetic: "ŋ",
     brief: "是软腭、闭音、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ng-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ng.mp4"
+      image: "ng"
     },
     part2: {
       sound: [
@@ -1209,8 +1164,7 @@ module.exports = {
     phonetic: "l",
     brief: "是流音、齿龈、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/l-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/l.mp4"
+      image: "l"
     },
     part2: {
       sound: [
@@ -1236,8 +1190,7 @@ module.exports = {
     phonetic: "j",
     brief: "是半元、硬腭、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/j-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/j.mp4"
+      image: "j"
     },
     part2: {
       sound: [
@@ -1263,8 +1216,7 @@ module.exports = {
     phonetic: "w",
     brief: "是半元、双唇、浊辅音。",
     part1: {
-      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/w-1.mp4",        
-      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/w.mp4"
+      image: "w"
     },
     part2: {
       sound: [

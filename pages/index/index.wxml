@@ -69,7 +69,7 @@
                 <view class="phonetic-symbol-title">浊辅音</view>
                 <view class="phonetic-symbol" data-symbol="b" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/b/</view>
                 <view class="phonetic-symbol" data-symbol="d" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/d/</view>
-                <view class="phonetic-symbol" data-symbol="ɡ" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/ɡ/</view>
+                <view class="phonetic-symbol" data-symbol="g" bindtap="playPhonetics" bindlongpress="navigateToPhonetics">/g/</view>
               </view>
             </view>
           </view>
