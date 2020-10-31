@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "发音方法",
-  "usingComponents": {}
+  "usingComponents": {
+    "mp-icon": "weui-miniprogram/icon/icon"
+  }
 }

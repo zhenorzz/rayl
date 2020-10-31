@@ -1,7 +1,7 @@
 <!--pages/phonetics/index.wxml-->
 <view class="container">
   <view>
-    <view style="margin: 20rpx 0;">
+    <view>
       <text style="font-size:50rpx;color: red" data-symbol="{{current.phonetic}}" bindtap="playPhonetics">/{{current.phonetic}}/</text>{{current.brief}}
     </view>
     <view style="margin: 20rpx 0;">
@@ -33,6 +33,7 @@
       <view style="margin: 20rpx 0;"><text>先来听听/{{current.phonetic}}/在下面单词中的发音，并跟读练习。</text></view>
       <view class="flex align-items-center" style=" flex-wrap: wrap;">
         <view wx:for="{{current.part2.sound}}" wx:key="word" style="margin: 0 20rpx 20rpx 0;" data-audio="{{item.word}}" bindtap="playYoudao">
+          <mp-icon icon="voice" color="#1cb7fd" size="{{18}}"></mp-icon>
           {{item.front}}<text style="color: red">{{item.middle}}</text>{{item.back}} {{item.phonetic}} {{item.class}} {{item.chinese}}
         </view>
       </view>

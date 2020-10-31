@@ -788,7 +788,7 @@ module.exports = {
     },
     part2: {
       sound: [
-        {word: "three",front: "",middle: "th",back: "ree",phonetic: "/θriː/",class: "n.",chinese: "三"},
+        {word: "three",front: "",middle: "th",back: "ree",phonetic: "/θriː/",class: "num.",chinese: "三"},
         {word: "south",front: "sou",middle: "th",back: "",phonetic: "/saʊθ/",class: "n.",chinese: "南方"},
         {word: "path",front: "pa",middle: "th",back: "",phonetic: "/pɑːθ/",class: "n.",chinese: "道路"},
         {word: "mouth",front: "mou",middle: "th",back: "",phonetic: "/maʊθ/",class: "n.",chinese: "口"},
@@ -814,12 +814,12 @@ module.exports = {
     },
     part2: {
       sound: [
-        {word: "home",front: "",middle: "",back: "",phonetic: "/həʊm/",class: "n.",chinese: "家"},
-        {word: "hello",front: "",middle: "",back: "",phonetic: "/həˈləʊ/",class: "int.",chinese: "喂"},
-        {word: "hut",front: "",middle: "",back: "",phonetic: "/hʌt/",class: "n.",chinese: "小屋"},
-        {word: "hand",front: "",middle: "",back: "",phonetic: "/hænd/",class: "n.",chinese: "手"},
-        {word: "hide",front: "",middle: "",back: "",phonetic: "/haɪd/",class: "vt.",chinese: "隐藏"},
-        {word: "happy",front: "",middle: "",back: "",phonetic: "/'hæpɪ/",class: "adj.",chinese: "幸福的"},
+        {word: "home",front: "",middle: "h",back: "ome",phonetic: "/həʊm/",class: "n.",chinese: "家"},
+        {word: "hello",front: "",middle: "h",back: "ello",phonetic: "/həˈləʊ/",class: "int.",chinese: "喂"},
+        {word: "hut",front: "",middle: "h",back: "ut",phonetic: "/hʌt/",class: "n.",chinese: "小屋"},
+        {word: "hand",front: "",middle: "h",back: "and",phonetic: "/hænd/",class: "n.",chinese: "手"},
+        {word: "hide",front: "",middle: "h",back: "ide",phonetic: "/haɪd/",class: "vt.",chinese: "隐藏"},
+        {word: "happy",front: "",middle: "h",back: "appy",phonetic: "/'hæpɪ/",class: "adj.",chinese: "幸福的"},
       ]
     },
     part3: {
@@ -831,26 +831,458 @@ module.exports = {
     },
     tips: '/h/是个清辅音，声音不震动，送气很大，可以拿一张白纸放在嘴前，感受一下气流。不要发成汉语中的"喝"。'
   },
-  // ɪ:{
-  //   title: "",
-  //   phonetic: "",
-  //   brief: "",
-  //   part1: {
-  //     organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i-1.mp4",        
-  //     mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/i.mp4"
-  //   },
-  //   part2: {
-  //     sound: [
-  //       {word: "",front: "",middle: "",back: "",phonetic: "",class: "",chinese: ""},
-  //     ]
-  //   },
-  //   part3: {
-  //     method: [
-  //       "",
-  //       "",
-  //       ""
-  //     ]
-  //   },
-  //   tips: ""
-  // },
+  v:{
+    title: "浊辅音/v/的发音方法",
+    phonetic: "v",
+    brief: "是摩擦、唇齿、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/v-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/v.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "very",front: "",middle: "v",back: "ery",phonetic: "/'verɪ/",class: "adv.",chinese: "非常"},
+        {word: "dove",front: "do",middle: "ve",back: "",phonetic: "/dʌv/",class: "n.",chinese: "鸽子"},
+        {word: "ever",front: "e",middle: "v",back: "er",phonetic: "/'evə/",class: "adv.",chinese: "曾经"},
+        {word: "leave",front: "lea",middle: "ve",back: "",phonetic: "/liːv/",class: "vt.",chinese: "离开"},
+        {word: "invite",front: "in",middle: "v",back: "ite",phonetic: "/ɪn'vaɪt/",class: "vt.",chinese: "邀请"},
+        {word: "heavy",front: "hea",middle: "v",back: "y",phonetic: "/'hevɪ/",class: "adj.",chinese: "沉重的"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）上齿轻触下嘴唇，发音和/f/口型基本相同。",
+        "2）气流从口腔通过唇齿间的缝隙，引起摩擦。",
+        "3）同时声带震动发出声音，送气力量较弱。",
+      ]
+    },
+    tips: "/v/是个浊辅音，声带震动发声。要注意上齿与下唇的咬合，气流通过唇齿间，不要发成/w/的音。不要把love /lʌv/错发成lʌw/。只要发/v/养成咬唇的习惯，就可以发好该音。"
+  },
+  z:{
+    title: "浊辅音/z/的发音方法",
+    phonetic: "z",
+    brief: "是摩擦、齿龈、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/z-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/z.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "zebra",front: "",middle: "z",back: "ebra",phonetic: "/'zebrə/",class: "n.",chinese: "斑马"},
+        {word: "zoo",front: "",middle: "z",back: "oo",phonetic: "/zuː/",class: "n.",chinese: "动物园"},
+        {word: "zero",front: "",middle: "z",back: "ero",phonetic: "/'zɪərəʊ/",class: "num.",chinese: "零"},
+        {word: "seize",front: "sei",middle: "ze",back: "",phonetic: "/siːz/",class: "vt.",chinese: "抓住"},
+        {word: "size",front: "si",middle: "ze",back: "",phonetic: "/saɪz/",class: "n.",chinese: "大小"},
+        {word: "eraser",front: "ers",middle: "z",back: "er",phonetic: "/ɪ'reɪzə/",class: "n.",chinese: "橡皮"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）微微张开嘴巴，口形不要张得太大，上下齿自然合拢。",
+        "2）舌端抬起，靠近齿龈，但不要贴住。",
+        "3）气流由舌端与齿龈之间的窄缝中泄出，空气泄出时伴有嘶嘶声，同时声带震动发音。",
+      ]
+    },
+    tips: '/dz/是个浊辅音，要振动声带发音，气流较强。注意用汉语的"资"来代替/z/的发音是不正确的。'
+  },
+  ʒ:{
+    title: "浊辅音/ʒ/的发音方法",
+    phonetic: "ʒ",
+    brief: "是摩擦、硬腭、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/3-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/3.mp4"
+    },
+    part2: {   
+      sound: [
+        {word: "visual",front: "vi",middle: "s",back: "ual",phonetic: "/'vɪʒjʊəl/",class: "adj.",chinese: "视觉的"},
+        {word: "measure",front: "mea",middle: "s",back: "ure",phonetic: "/'meʒə/",class: "vt.",chinese: "测量"},
+        {word: "vision",front: "vi",middle: "si",back: "on",phonetic: "/'vɪʒ(ə)n/",class: "n.",chinese: "视力"},
+        {word: "television",front: "televi",middle: "si",back: "on",phonetic: "/ˈtelɪvɪʒn/",class: "n.",chinese: "电视"},
+        {word: "decision",front: "deci",middle: "si",back: "on",phonetic: "/dɪ'sɪʒ(ə)n/",class: "n.",chinese: "决定"},
+        {word: "leisure",front: "lei",middle: "s",back: "ure",phonetic: "/'leʒə/",class: "n.",chinese: "闲暇"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇略微向前突出，略成长方形。",
+        "2）将舌端抬起，靠近齿龈后部，但不要贴住。",
+        "3）舌身抬起，靠近上腭，形成狭长的通道，气流通过通道时摩擦，同时声带震动发声。",
+      ]
+    },
+    tips: "/ʒ/是个浊辅音，发音时只有微弱气流泻出，这是一个较难发准的音，要注意声带的震动。"
+  },
+  ð:{
+    title: "浊辅音/ð/的发音方法",
+    phonetic: "ð",
+    brief: "是摩擦、舌齿、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th1-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/th1.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "they",front: "",middle: "th",back: "ey",phonetic: "/ðeɪ/",class: "pron.",chinese: "他们"},
+        {word: "those",front: "",middle: "th",back: "ose",phonetic: "/ðəʊz/",class: "adj.",chinese: "那些的"},
+        {word: "other",front: "o",middle: "th",back: "er",phonetic: "/'ʌðə/",class: "adj.",chinese: "其他的"},
+        {word: "another",front: "ano",middle: "th",back: "er",phonetic: "/ə'nʌðə/",class: "prep.",chinese: "另一个"},
+        {word: "breathe",front: "brea",middle: "th",back: "e",phonetic: "/briːð/",class: "vi.",chinese: "呼吸"},
+        {word: "teethe",front: "tee",middle: "th",back: "e",phonetic: "/tiːð/",class: "vi.",chinese: "长牙齿"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）首先将舌尖微微伸出略微露出齿外，置于上下门齿之间，舌身成扁平。",
+        "2）气流从舌齿间的窄缝中泄出，同时声带震动发出/ð/这个音。",
+      ]
+    },
+    tips: "/ð/是舌齿、浊辅音，舌尖和下齿之间的气流通道非常窄小。发这个音主要是舌尖与上齿之间的摩擦，所以千万不要紧紧咬住舌尖，只要轻轻咬一咬就行了！"
+  },
+  r:{
+    title: "浊辅音/r/的发音方法",
+    phonetic: "r",
+    brief: "是流音、齿龈、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/r-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/r.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "rain",front: "",middle: "r",back: "ain",phonetic: "/reɪn/",class: "n.",chinese: "雨"},
+        {word: "read",front: "",middle: "r",back: "ead",phonetic: "/ri:d/",class: "vt.",chinese: "阅读"},
+        {word: "red",front: "",middle: "r",back: "ed",phonetic: "/red/",class: "n.",chinese: "红色"},
+        {word: "real",front: "",middle: "r",back: "eal",phonetic: "/riːl/",class: "adv.",chinese: "真正地"},
+        {word: "grass",front: "g",middle: "r",back: "ass",phonetic: "/grɑːs/",class: "n.",chinese: "草"},
+        {word: "write",front: "w",middle: "r",back: "ite",phonetic: "/raɪt/",class: "vt.",chinese: "写"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇略张开并收圆，稍突出。",
+        "2）舌尖卷起，靠近上齿龈后部,舌两侧贴住上齿龈两侧。",
+        "3）气流通过舌端及上齿龈后背部形成轻微的摩擦，同时震动声带发出/r/音。",
+      ]
+    },
+    tips: '/r/是个浊辅音，声音是由声带震动发出，有些学生会把汉语中的声母r的发音来代替/r/的发音，于是把rose读成"肉丝"，把road读成"肉的"，但实际上两者有很大的差别。'
+  },
+  tʃ:{
+    title: "清辅音/tʃ/的发音方法",
+    phonetic: "tʃ",
+    brief: "是破擦、硬腭、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tss-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tss.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "chick",front: "",middle: "ch",back: "ick",phonetic: "/tʃɪk/",class: "n.",chinese: "小鸡"},
+        {word: "rich",front: "ri",middle: "ch",back: "",phonetic: "/rɪtʃ/",class: "adj.",chinese: "富有的"},
+        {word: "coach",front: "coa",middle: "ch",back: "",phonetic: "/kəʊtʃ/",class: "n.",chinese: "教练"},
+        {word: "match",front: "mat",middle: "ch",back: "",phonetic: "/mætʃ/",class: "n.",chinese: "比赛"},
+        {word: "cheer",front: "",middle: "ch",back: "eer",phonetic: "/tʃɪə/",class: "vt.",chinese: "欢呼"},
+        {word: "which",front: "whi",middle: "ch",back: "",phonetic: "/wɪtʃ/",class: "pron.",chinese: "哪/那一个"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇微张向前突出，略成圆形。",
+        "2）舌尖和舌端抬起贴住上齿龈后部，憋住气。",
+        "3）然后舌尖稍稍下降，气流从舌和齿龈间的狭缝中冲出，摩擦成音。",
+      ]
+    },
+    tips: '/t∫/是个清辅音，声带不震动。/tʃ/这个音和汉语拼音中的声母ch很相近，很多北方同学会用"吃"代替/tʃ/是不正确的，一些南方同学会把/tʃ/和汉语拼音中的声母q混淆，也是极不正确的，应注意区分它们的异同。'
+  },
+  tr:{
+    title: "清辅音/tr/的发音方法",
+    phonetic: "tr",
+    brief: "是破擦、清辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tr-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/tr.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "ostrich",front: "os",middle: "tr",back: "ich",phonetic: "/'ɒstrɪtʃ/",class: "n.",chinese: "鸵鸟"},
+        {word: "trade",front: "",middle: "tr",back: "ade",phonetic: "/treɪd/",class: "n.",chinese: "贸易"},
+        {word: "trill",front: "",middle: "tr",back: "ill",phonetic: "/trɪl/",class: "n.",chinese: "颤音"},
+        {word: "metric",front: "me",middle: "tr",back: "ic",phonetic: "/'metrɪk/",class: "adj.",chinese: "公制的"},
+        {word: "tree",front: "",middle: "tr",back: "ee",phonetic: "/triː/",class: "n.",chinese: "树"},
+        {word: "track",front: "",middle: "tr",back: "ack",phonetic: "/træk/",class: "n.",chinese: "轨道"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）上下齿自然合拢，嘴唇张开不要太大。",
+        "2）舌端贴住齿龈，堵住气流。",
+        "3）然后舌尖略微下降，气流随之泄出。",
+      ]
+    },
+    tips: "/tr/是个清辅音，声带不震动。/ts/,/dz/,/dr/,/tr/是传统的音标符号，新课本中美式、英式读音都没将其包括在内。"
+  },
+  ts:{
+    title: "清辅音/ts/的发音方法",
+    phonetic: "ts",
+    brief: "是破擦、清辅音",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ts-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ts.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "cats",front: "ca",middle: "ts",back: "",phonetic: "/kæts/",class: "n.",chinese: "(复数)猫"},
+        {word: "boats",front: "boa",middle: "ts",back: "",phonetic: "/bəʊts/",class: "n.",chinese: "(复数)小船"},
+        {word: "meets",front: "mee",middle: "ts",back: "",phonetic: "/miːts/",class: "vt.",chinese: "(第三人称)遇见"},
+        {word: "gifts",front: "gif",middle: "ts",back: "",phonetic: "/gɪfts/",class: "n.",chinese: "(复数)礼物"},
+        {word: "limits",front: "limi",middle: "ts",back: "",phonetic: "/'lɪmɪts/",class: "v.",chinese: "(第三人称)限制"},
+        {word: "eats",front: "ea",middle: "ts",back: "",phonetic: "/iːts/",class: "vt.",chinese: "(第三人称)吃"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）上下齿自然合拢，嘴唇张开不要太大。",
+        "2）舌端贴住齿龈，堵住气流。",
+        "3）然后舌尖略微下降，气流随之泄出。",
+      ]
+    },
+    tips: '/ts/是个清辅音，声带不震动。/ts/,/dz/,/dr/,/tr/是传统的音标符号，新课本中美式、英式读音都没将其包括在内。'
+  },
+  dʒ:{
+    title: "浊辅音/dʒ/的发音方法",
+    phonetic: "dʒ",
+    brief: "是破擦、硬腭、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d3-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/d3.mp4"
+    },  
+    part2: {
+      sound: [
+        {word: "jar",front: "",middle: "j",back: "ar",phonetic: "/dʒɑː/",class: "n.",chinese: "罐"},
+        {word: "jam",front: "",middle: "j",back: "am",phonetic: "/dʒæm/",class: "n.",chinese: "果酱"},
+        {word: "July",front: "",middle: "J",back: "uly",phonetic: "/dʒʊˈlaɪ/",class: "n.",chinese: "七月"},
+        {word: "angel",front: "an",middle: "g",back: "el",phonetic: "/'eɪndʒ(ə)l/",class: "n.",chinese: "天使"},
+        {word: "cage",front: "ca",middle: "g",back: "e",phonetic: "/keɪdʒ/",class: "n.",chinese: "笼"},
+        {word: "bridge",front: "bri",middle: "dg",back: "e",phonetic: "/brɪdʒ/",class: "n.",chinese: "桥"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇向前突出，略成圆形，牙齿基本闭合。",
+        "2）舌尖和舌端抬起贴住上齿龈后部，憋住气。",
+        "3）舌尖稍稍下降，气流从舌和齿龈间的狭缝冲出，同时声带震动发声。",
+      ]
+    },
+    tips: '/dʒ/是个浊辅音，发音时只有微弱气流泻出，摩擦在舌端，声音是由声音震动发出。不要读在汉语中的“基”，“基”字发音舌位靠前，而/dʒ/是用舌尖去顶齿龈，整体舌位不靠前。'
+  },
+  dr:{
+    title: "浊辅音/dr/的发音方法",
+    phonetic: "dr",
+    brief: "是破擦、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dr-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dr.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "drink",front: "",middle: "dr",back: "ink",phonetic: "/drɪŋk/",class: "vt.",chinese: "喝"},
+        {word: "dress",front: "",middle: "dr",back: "ess",phonetic: "/dres/",class: "n.",chinese: "连衣裙"},
+        {word: "dream",front: "",middle: "dr",back: "eam",phonetic: "/driːm/",class: "n.",chinese: "梦想"},
+        {word: "draw",front: "",middle: "dr",back: "wa",phonetic: "/drɔː/",class: "vt.",chinese: "画"},
+        {word: "drip",front: "",middle: "dr",back: "ip",phonetic: "/drɪp/",class: "vi.",chinese: "滴下"},
+        {word: "drug",front: "",middle: "dr",back: "ug",phonetic: "/drʌg/",class: "n.",chinese: "毒品"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇稍稍突出，略成圆形。",
+        "2）舌身保持发/r/的姿势，舌尖贴在齿龈后部，堵住气流。",
+        "3）舌头放开，让气流从舌尖和齿龈间冲出，冲破阻碍发出短促的/d/后立即发/r/。",
+      ]
+    },
+    tips: '/dr/是个浊辅音，发音时声带震动。有些学生分不清/dr/和/dʒ/的区别，其实发/dʒ/时嘴唇需收圆，同时舌头闭气的部位也比/dʒ/靠前。也有人容易把这个音念成汉语中的"朱"，要注意不要在这个音的后面加上元音/u/。/ts/,/dz/,/dr/,/tr/是传统的音标符号，新课本中美式、英式读音都没将其包括在内。'
+  },
+  dz:{
+    title: "浊辅音/dz/的发音方法",
+    phonetic: "dz",
+    brief: "是破擦、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dz-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/dz.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "beds",front: "be",middle: "ds",back: "",phonetic: "/bedz/",class: "n.",chinese: "床上用品(复数)"},
+        {word: "cards",front: "car",middle: "ds",back: "",phonetic: "/kɑ:dz/",class: "n.",chinese: "卡片(复数)"},
+        {word: "rides",front: "ri",middle: "des",back: "",phonetic: "/raɪdz/",class: "vi.",chinese: "骑马(第三人称)"},
+        {word: "adds",front: "a",middle: "dds",back: "",phonetic: "/ædz/",class: "vt.",chinese: "增加(第三人称)"},
+        {word: "seconds",front: "secon",middle: "ds",back: "",phonetic: "/'sek(ə)ndz/",class: "n.",chinese: "秒(复数)"},
+        {word: "friends",front: "frien",middle: "ds",back: "",phonetic: "/frendz/",class: "n.",chinese: "朋友(复数)"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）舌端贴住齿龈，堵住气流。",
+        "2）舌尖略微下降，气流随之泄出形成先破擦，同时声带震动发出/dz/音。",
+      ]
+    },
+    tips: '/dz/是个浊辅音，发音时声带震动。/dz/有点类似于汉语中的"子"（轻音），但发音时有爆破的感觉，而且声带振动较强。'
+  },
+  m:{
+    title: "浊辅音/m/的发音方法",
+    phonetic: "m",
+    brief: "是双唇、鼻音、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/m-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/m.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "mud",front: "",middle: "m",back: "ud",phonetic: "/mʌd/",class: "n.",chinese: "泥"},
+        {word: "move",front: "",middle: "m",back: "ove",phonetic: "/muːv/",class: "vi.",chinese: "移动"},
+        {word: "swim",front: "swi",middle: "m",back: "",phonetic: "/swɪm/",class: "vi.",chinese: "游泳"},
+        {word: "smart",front: "s",middle: "m",back: "art",phonetic: "/smɑːt/",class: "adj.",chinese: "聪明的"},
+        {word: "animal",front: "ani",middle: "m",back: "al",phonetic: "/'ænɪməl/",class: "n.",chinese: "动物"},
+        {word: "sample",front: "sa",middle: "m",back: "ple",phonetic: "/'sɑːmpl/",class: "n.",chinese: "样品"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）这个音发音很简音，首先双唇闭拢，舌头自然放平，软颚下垂。",
+        "2）气流从鼻腔泻出，同时振动声带。",
+      ]
+    },
+    tips: "/m/是个鼻音、浊辅音，发音时一定是闭拢双唇。发音时会感觉到嘴唇也会一起振动。"
+  },
+  n:{
+    title: "浊辅音/n/的发音方法",
+    phonetic: "n",
+    brief: "是齿龈、鼻音、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/n-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/n.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "no",front: "",middle: "n",back: "o",phonetic: "/nəʊ/",class: "adv.",chinese: "不"},
+        {word: "winner",front: "wi",middle: "nn",back: "er",phonetic: "/'wɪnə/",class: "n.",chinese: "胜利者"},
+        {word: "ant",front: "a",middle: "n",back: "t",phonetic: "/ænt/",class: "n.",chinese: "蚂蚁"},
+        {word: "brain",front: "brai",middle: "n",back: "",phonetic: "/breɪn/",class: "n.",chinese: "头脑"},
+        {word: "find",front: "fi",middle: "n",back: "d",phonetic: "/faɪnd/",class: "vt.",chinese: "查找"},
+        {word: "hunt",front: "hu",middle: "n",back: "t",phonetic: "/hʌnt/",class: "vt.",chinese: "打猎"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）微微张开嘴巴，舌尖紧贴上齿龈，形成阻碍。",
+        "2）气流从鼻腔泄出，同时声带震动发出声音。",
+      ]
+    },
+    tips: '/n/是个鼻音、浊辅音，依靠声音震动发声，当/n/出现在音节结尾处时要略微延长，以防止吞没末尾的/n/,把ten /ten/错发成/te/是不正确的。/n/和/m/是同一组浊辅音，所不同的是/m/是"闭嘴音"，而/n/是"开口音"。'
+  },
+  ŋ:{
+    title: "鼻辅音/ŋ/的发音方法",
+    phonetic: "ŋ",
+    brief: "是软腭、闭音、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ng-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/ng.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "ink",front: "i",middle: "n",back: "k",phonetic: "/ɪŋk/",class: "n.",chinese: "墨水"},
+        {word: "bank",front: "ba",middle: "n",back: "k",phonetic: "/bæŋk/",class: "n.",chinese: "银行"},
+        {word: "bang",front: "ba",middle: "ng",back: "",phonetic: "/bæŋ/",class: "n.",chinese: "刘海"},
+        {word: "sing",front: "si",middle: "ng",back: "",phonetic: "/sɪŋ/",class: "vi.",chinese: "唱歌"},
+        {word: "spring",front: "spri",middle: "ng",back: "",phonetic: "/sprɪŋ/",class: "n.",chinese: "春天"},
+        {word: "pink",front: "pi",middle: "n",back: "k",phonetic: "/pɪŋk/",class: "n.",chinese: "粉红色"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）嘴唇张开，舌后部抬起贴住软腭，阻止气流从口腔泄出。",
+        "2）软腭下垂，气流从鼻腔泄出，同时震动声带发音。",
+      ]
+    },
+    tips: "/ŋ/是个浊辅音，声音震动。很多人会把/ŋ/发成/n/，/ŋ/和我们汉语拼音中的ng音非常相似，它和音标/n/的关系就像汉语拼音中an-ang,en-eng,in-ing的关系。"
+  },
+  l:{
+    title: "舌边音/l/的发音方法",
+    phonetic: "l",
+    brief: "是流音、齿龈、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/l-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/l.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "line",front: "",middle: "l",back: "ine",phonetic: "/laɪn/",class: "n.",chinese: "路线"},
+        {word: "like",front: "",middle: "l",back: "ike",phonetic: "/laɪk/",class: "vt.",chinese: "喜欢"},
+        {word: "alive",front: "",middle: "l",back: "ive",phonetic: "/ə'laɪv/",class: "adj.",chinese: "活着的"},
+        {word: "meal",front: "mea",middle: "l",back: "",phonetic: "/miːl/",class: "n.",chinese: "一餐"},
+        {word: "pool",front: "poo",middle: "l",back: "",phonetic: "/puːl/",class: "n.",chinese: "联营"},
+        {word: "all",front: "a",middle: "ll",back: "",phonetic: "/ɔːl/",class: "adj.",chinese: "全部的"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇略张开，牙齿自然张开。",
+        "2）舌尖紧贴上齿龈，舌前部抬起靠近硬腭。",
+        "3）气流从舌的两侧泄出，声带震动发音。",
+      ]
+    },
+    tips: '/l/发音有两种情况，根据它所出现的位置不同发出两种不太完全一样的音。/l/+其它音节、/l/+元音、/l/+/j/称它为清晰/l/，发清晰/l/音时，在下一个音即将出出时舌头离开上齿龈，迅速下落；当其它音节+/l/或/l/+辅音时舌头不需要下落，称它为含糊音。'
+  },
+  j:{
+    title: "半元音/j/的发音方法",
+    phonetic: "j",
+    brief: "是半元、硬腭、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/j-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/j.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "yak",front: "",middle: "y",back: "ak",phonetic: "/jæk/",class: "n.",chinese: "牦牛"},
+        {word: "youth",front: "",middle: "y",back: "outh",phonetic: "/juːθ/",class: "n.",chinese: "青年"},
+        {word: "yell",front: "",middle: "y",back: "ell",phonetic: "/jel/",class: "vi.",chinese: "大叫"},
+        {word: "billion",front: "bill",middle: "i",back: "on",phonetic: "/'bɪljən/",class: "n.",chinese: "十亿"},
+        {word: "million",front: "mill",middle: "i",back: "on",phonetic: "/'mɪljən/",class: "num.",chinese: "百万"},
+        {word: "unit",front: "",middle: "u",back: "nit",phonetic: "/'juːnɪt/",class: "n.",chinese: "单位"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇向两旁伸展成扁平形。",
+        "2）舌前部向硬腭尽量抬起，不要抵住硬腭。",
+        "3）气流从舌和硬腭的缝隙间通过，同时声带需震动，发音短促，立刻向后面的元音滑动。",
+      ]
+    },
+    tips: "/j/是个半元音，发音时口型和元音/iː/有点相似，但它仍是个辅音，元音可以单独成音可以延长，半元音不可以单独成音不可以延长。"
+  },
+  w:{
+    title: "半元音/w/的发音方法",
+    phonetic: "w",
+    brief: "是半元、双唇、浊辅音。",
+    part1: {
+      organ: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/w-1.mp4",        
+      mouth: "https://i.xiao84.com/en-yinbiao/lip-rounding-video/w.mp4"
+    },
+    part2: {
+      sound: [
+        {word: "swan",front: "s",middle: "w",back: "an",phonetic: "/swɒn/",class: "n.",chinese: "天鹅"},
+        {word: "with",front: "",middle: "w",back: "ith",phonetic: "/wɪð/",class: "prep.",chinese: "用"},
+        {word: "what",front: "",middle: "wh",back: "at",phonetic: "/wɒt/",class: "pron.",chinese: "什么"},
+        {word: "white",front: "",middle: "wh",back: "ite",phonetic: "/waɪt/",class: "adj.",chinese: "白色的"},
+        {word: "work",front: "",middle: "w",back: "ork",phonetic: "/wɜːk/",class: "n.",chinese: "工作"},
+        {word: "wood",front: "",middle: "w",back: "ood",phonetic: "/wʊd/",class: "n.",chinese: "木材"},
+      ]
+    },
+    part3: {
+      method: [
+        "1）双唇收得很圆很小，嘴唇张开到刚好可以含住一根吸管的程度，并向前突出，上下齿分开贴住嘴唇。",
+        "2）舌后部向软腭抬起，但不要抵住。",
+        "3）气流从双唇间摩擦而过，同时声带需震动，发音短促，立刻向后面的元音滑动。",
+      ]
+    },
+    tips: "/w/是个半元音，和元音/uː/很相似，但元音可以单独成音可以延长，半元音不能单独成音，不可以延长，更不能在它后面附加元音。"
+  },
 }
