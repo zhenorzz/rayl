@@ -10,22 +10,6 @@
     "navigationBarTitleText": "英语随心读",
     "navigationBarTextStyle": "black"
   },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "音标",
-        "iconPath": "assets/icon/abc.png",
-        "selectedIconPath": "assets/icon/abc-active.png"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "语法",
-        "iconPath": "assets/icon/grammar.png",
-        "selectedIconPath": "assets/icon/grammar-active.png"
-      }
-    ]
-  },
   "useExtendedLib": {
     "weui": true
   },
